@@ -15,4 +15,7 @@ params [
 	["_unit", objNull, [objNull]]
 ];
 
-(_unit getVariable ["HALs_money_funds", 0])
+//(_unit getVariable ["HALs_money_funds", 0])
+
+_Crypto = EPOCH_playerCrypto;
+_Crypto;
